@@ -6,5 +6,4 @@ I = 18.618 +/- 0.069
 J = 18.436 +/- 0.066 ; JHK ref = 2012A&A...541A..54M
 H = 18.317 +/- 0.068
 K = 18.235 +/- 0.080
-STIS = STIS_Data/mr12-star08_stis_UV.fits
-#sptype = B0.5III
+IUE = STIS_Data/mr12-star08_stis_UV.fits
