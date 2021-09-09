@@ -1,7 +1,7 @@
 # data file for observations of HD 34921
-V = 7.51 +/- 0.010 ; UBV ref = 1956ApJS....2..389H
-(B-V) = 0.14 +/- 0.010
-(U-B) = -0.86 +/- 0.010
+V = 7.51 +/- 0.01 ; UBV ref = Hiltner 1956 (1956ApJS....2..389H)
+(B-V) = 0.14 +/- 0.01
+(U-B) = -0.86 +/- 0.01
 J = 6.696 +/- 0.019 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 6.507 +/- 0.016
 K = 6.230 +/- 0.017
@@ -13,12 +13,14 @@ sptype = B0IVpe ; sptype ref = Morgan, Code & Whitford 1955 (1955ApJS....2...41M
 uvsptype = B2III ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 MIPS24 = 1.62E+02 +/- 3.53E+00 mJy
 IRAC1 = 1.36E+03 +/- 2.72E+01 mJy
-IRAC2 = 1.03E+03 +/- 2.09E+01 mJy
+# IRAC 2 seems off
+# IRAC2 = 1.03E+03 +/- 2.09E+01 mJy
 IRAC3 = 8.55E+02 +/- 1.90E+01 mJy
 IRAC4 = 5.63E+02 +/- 1.16E+01 mJy
 IRS15 = 3.12E+02 +/- 6.32E+00 mJy
-WISE1 = 5.636 +/- 0.164 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 5.157 +/- 0.079
+# WISE 1 and 2 seem off
+# WISE1 = 5.636 +/- 0.164 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE2 = 5.157 +/- 0.079
 WISE3 = 4.491 +/- 0.015
 WISE4 = 3.385 +/- 0.025
 # corfac_irs = 0.995
@@ -27,3 +29,4 @@ WISE4 = 3.385 +/- 0.025
 corfac_spex_SXD = 1.101
 LXD_man = True
 corfac_spex_LXD = 1.13
+spex_mask = [(0.804,0.805),(2.87,2.88)]

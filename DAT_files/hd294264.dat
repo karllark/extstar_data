@@ -1,7 +1,7 @@
 # data file for observations of HD 294264
-V = 9.470 +/- 0.010
-B = 9.830 +/- 0.010
-U = 9.420 +/- 0.010
+V = 9.47 +/- 0.01 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 9.83 +/- 0.01
+U = 9.42 +/- 0.01
 J = 8.086 +/- 0.029 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 7.744 +/- 0.034
 K = 7.582 +/- 0.033
@@ -13,10 +13,12 @@ uvsptype = B3IV ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 IRAC3 = 1.3050E+02 +/- 6.3350E-02 mJy ; IRAC ref = IRSA SEIP Source List
 IRAC4 = 8.0270E+01 +/- 4.2560E-02 mJy
 WISE1 = 7.448 +/- 0.036 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 7.424 +/- 0.021
+# WISE 2 seems off
+# WISE2 = 7.424 +/- 0.021
 # WISE3 and WISE4 data points seem to be too high
 # WISE3 = 6.437 +/- 0.069
 # WISE4 = 2.547 +/- 0.072 
 corfac_spex_SXD = 0.830
 LXD_man = True
-corfac_spex_LXD = 1.13
+corfac_spex_LXD = 1.125
+spex_mask = [(1.349,1.36),(1.94,1.951),(2.87,2.974)]

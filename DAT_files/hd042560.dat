@@ -1,5 +1,5 @@
 # data file for observations of HD 42560
-U = 3.65 +/- 0.03 ; UBVRI ref = 2002yCat.2237....0D (no uncertainties, assume 0.03)
+U = 3.65 +/- 0.03 ; UBVRI ref = Johnson+1966 (1966CoLPL...4...99J, source 2199)
 B = 4.31 +/- 0.03
 V = 4.48 +/- 0.03
 R = 4.53 +/- 0.03
@@ -17,3 +17,4 @@ WISE4 = 4.988 +/- 0.036
 corfac_spex_SXD = 0.762
 LXD_man = True
 corfac_spex_LXD = 1.57
+spex_mask = [(0.806,0.807),(1.4,1.415),(1.799,1.953),(2.514,2.88),(4,4.03)]

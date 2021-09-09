@@ -1,7 +1,7 @@
 # data file for observations of HD 214680 (IUE standard)
-V = 4.88 +/- 0.02   ; UBV ref = 1966CoLPL...4...99J
+V = 4.88 +/- 0.02 ; UBVRI ref = Johnson+1966 (1966CoLPL...4...99J, source 8622)
 (B-V) = -0.20 +/- 0.02
-(U-B) = -1.04 +/- 0.02
+(U-B) = -1.05 +/- 0.02
 R = 4.97 +/- 0.02
 I = 5.18 +/- 0.02
 J = 5.303 +/- 0.037 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -34,4 +34,5 @@ WISE4 = 5.701 +/- 0.037
 # corfac_irs_zerowave = 7.460
 corfac_spex_SXD = 0.867
 LXD_man = True
-corfac_spex_LXD = .935
+corfac_spex_LXD = 0.935
+spex_mask = [(0.804,0.8047),(1.34,1.36),(1.803,1.95),(2.515,2.877),(5.17,5.2)]

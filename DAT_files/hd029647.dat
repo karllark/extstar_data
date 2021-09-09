@@ -1,5 +1,5 @@
 # data file for observations of HD 29647
-V = 8.31 +/- 0.017  ; UBVRI ref = 1980SvAL....6..397S
+V = 8.31 +/- 0.017 ; UBVRI ref = Slutskij, Stalbovskij & Shevchenko 1980 (1980SvAL....6..397S)
 (U-B) = 0.47 +/- 0.030
 (B-V) = 0.91 +/- 0.019
 (V-R) = 0.96 +/- 0.024
@@ -10,20 +10,23 @@ K = 5.363 +/- 0.020
 IUE = IUE_Data/hd029647_iue.fits
 SpeX_SXD = SpeX_Data/hd029647_SXD_spex.fits
 SpeX_LXD = SpeX_Data/hd029647_LXD_spex.fits
-sptype = B8III ; sptype ref = Metreveli 1969 (1969AbaOB..38...93M)
+sptype = B7IV ; sptype ref = Murakawa, Tamura & Nagata 2000 (2000ApJS..128..603M)
 uvsptype = B8III ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 IRS = IRS_Data/hd029647_irs.fits
 MIPS24 = 6.76E+01 +/- 1.89E+00 mJy
-IRAC1 = 2.23E+03 +/- 4.45E+01 mJy
-IRAC2 = 1.50E+03 +/- 3.00E+01 mJy
+# IRAC 1 and 2 seem off
+# IRAC1 = 2.23E+03 +/- 4.45E+01 mJy
+# IRAC2 = 1.50E+03 +/- 3.00E+01 mJy
 IRAC3 = 1.06E+03 +/- 2.16E+01 mJy
 IRAC4 = 5.42E+02 +/- 1.09E+01 mJy
 IRS15 = 3.14E+02 +/- 6.51E+00 mJy
-WISE1 = 5.179 +/- 0.150 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 4.905 +/- 0.068
+# WISE 1 and 2 seem off
+# WISE1 = 5.179 +/- 0.150 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE2 = 4.905 +/- 0.068
 WISE3 = 4.882 +/- 0.023
 WISE4 = 3.821 +/- 0.033
 # corfac_irs = 0.990
 corfac_spex_SXD = 1.254
 LXD_man = True
 corfac_spex_LXD = 1.1
+spex_mask = [(1.94,1.95),(2.87,2.88),(4.006,4.02),(5.32,5.41)]

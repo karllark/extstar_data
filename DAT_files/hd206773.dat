@@ -1,5 +1,5 @@
 # data file for observations of HD 206773
-V = 6.79 +/- 0.016  ; UBV ref = 1976PASP...88..865G
+V = 6.79 +/- 0.016 ; UBV ref = Garrison & Kormendy 1976 (1976PASP...88..865G, BD+57d2374)
 (B-V) = 0.22 +/- 0.016
 (U-B) = -0.84 +/- 0.06
 J = 6.072 +/- 0.024 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -13,13 +13,15 @@ IRS = IRS_Data/hd206773_irs.fits
 sptype = B0V:pe ; sptype ref = Morgan, Code & Whitford 1955 (1955ApJS....2...41M)
 uvsptype = B0Ia ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 MIPS24 = 1.23E+02 +/- 2.69E+00 mJy
-IRAC1 = 1.15E+03 +/- 2.32E+01 mJy
-IRAC2 = 8.30E+02 +/- 1.69E+01 mJy
+# IRAC 1 and 2 seem off
+# IRAC1 = 1.15E+03 +/- 2.32E+01 mJy
+# IRAC2 = 8.30E+02 +/- 1.69E+01 mJy
 IRAC3 = 6.45E+02 +/- 1.48E+01 mJy
 IRAC4 = 3.92E+02 +/- 8.20E+00 mJy
 IRS15 = 2.04E+02 +/- 4.19E+00 mJy
-WISE1 = 6.415 +/- 0.082 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 6.104 +/- 0.033
+# WISE 1 and 2 seem off
+# WISE1 = 6.415 +/- 0.082 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE2 = 6.104 +/- 0.033
 WISE3 = 5.791 +/- 0.016
 WISE4 = 4.192 +/- 0.032
 # corfac_irs = 0.834
@@ -27,4 +29,5 @@ WISE4 = 4.192 +/- 0.032
 # corfac_irs_zerowave = 7.500
 corfac_spex_SXD = 1.367
 LXD_man = True
-corfac_spex_LXD = 1.49
+corfac_spex_LXD = 1.5
+spex_mask = [(1.94,1.948),(2.514,2.877)]

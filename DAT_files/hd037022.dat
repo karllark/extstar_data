@@ -1,10 +1,11 @@
 # data file for observations of HD 37022
-V = 5.130 +/- 0.010
-B = 5.130 +/- 0.020
-U = 4.200 +/- 0.010
-J = 4.580 +/- 0.040
+V = 5.13 +/- 0.01 ; UBVJ ref = Valencic+2004 (2004ApJ...616..912V)
+B = 5.13 +/- 0.02
+U = 4.20 +/- 0.01
+J = 4.58 +/- 0.04
 # 2MASS J seems to be wrong: J = 1.802 +/- 0.938
-H = 4.629 +/- 0.036; HK ref = IRSA 2MASS All-Sky Point Source Catalog
+# 2MASS HK suffer from diffraction spike confusion
+H = 4.629 +/- 0.036 ; HK ref = IRSA 2MASS All-Sky Point Source Catalog
 K = 4.403 +/- 0.023
 IUE = IUE_Data/hd037022_iue.fits
 SpeX_SXD = SpeX_Data/hd037022_SXD_spex.fits
@@ -13,4 +14,5 @@ sptype = O7Vp ; sptype ref = Sota+2011 (2011ApJS..193...24S)
 uvsptype = O7V ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 corfac_spex_SXD = 0.913
 LXD_man = True
-corfac_spex_LXD = 0.86
+corfac_spex_LXD = 0.863
+spex_mask = [(0.804,0.8054),(1.347,1.416),(1.94,1.953),(2.514,2.895)]

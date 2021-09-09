@@ -1,5 +1,5 @@
 # data file for observations of HD 29309
-V = 7.10 +/- 0.010     ; UBV ref = 1974PASP...86..795G
+V = 7.10 +/- 0.010 ; UBV ref = Guetter 1974 (1974PASP...86..795G)
 (B-V) = 0.32 +/- 0.010
 (U-B) = -0.31 +/- 0.010
 J = 6.122 +/- 0.020 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -27,3 +27,4 @@ WISE4 = 5.636 +/- 0.043
 corfac_spex_SXD = 1.001
 LXD_man = True
 corfac_spex_LXD = 0.94
+spex_mask = [(0.805,0.8062),(1.35,1.36),(1.94,1.951),(2.516,2.89),(4,4.02)]

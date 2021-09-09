@@ -1,19 +1,24 @@
 # data file for observations of HD 183143
-V = 6.840 +/- 0.010
-B = 8.080 +/- 0.010
-U = 8.170 +/- 0.010
-R = 5.74  +/- 0.010
-I = 4.79  +/- 0.020
+V = 6.86 +/- 0.01 ; UBVRI ref = Johnson 1965 (1965ApJ...141..923J)
+B = 8.08 +/- 0.01
+U = 8.25 +/- 0.01
+R = 5.74 +/- 0.01
+# I seems off
+# I = 4.79  +/- 0.020
 J = 4.13 +/- 0.03 ; JK ref = 1965ApJ...141..923J (no uncertainties, assume 0.03)
 K = 3.48 +/- 0.03
-L = 2.89  +/- 0.030
+# L seems off
+# L = 2.89  +/- 0.030
 SpeX_SXD = SpeX_Data/hd183143_SXD_spex.fits
 SpeX_LXD = SpeX_Data/hd183143_LXD_spex.fits
-WISE1 = 3.307 +/- 0.478 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 2.817 +/- 0.483
+# WISE 1 has a very large error bar
+# WISE1 = 3.307 +/- 0.478 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE 2 seems off
+# WISE2 = 2.817 +/- 0.483
 WISE3 = 3.053 +/- 0.012
 WISE4 = 2.768 +/- 0.021
 sptype = B7Ia ; sptype ref = Morgan, Code & Whitford 1955 (1955ApJS....2...41M)
-corfac_spex_SXD = 0.593
+corfac_spex_SXD = 0.591
 LXD_man = True
-corfac_spex_LXD = 0.62
+corfac_spex_LXD = 0.615
+spex_mask = [(2.87,2.879),(5.24,5.35)]

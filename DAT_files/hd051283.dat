@@ -1,7 +1,7 @@
 # data file for observations of HD 51283 (IUE standard)
-V = 5.32 +/- 0.023  ; UBVRI ref = 1983ApJS...52....7F
+V = 5.32 +/- 0.023 ; UBVRI ref = Fernie 1983 (1983ApJS...52....7F)
 (B-V) = -0.17 +/- 0.018
-(U-B) = -0.96 +/- 0.027
+(U-V) = -0.96 +/- 0.027
 (V-R) = -0.06 +/- 0.02
 (V-I) = -0.11 +/- 0.02
 J = 5.632 +/- 0.023 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -10,7 +10,7 @@ K = 5.680 +/- 0.020
 IUE = IUE_Data/hd051283_iue.fits
 SpeX_SXD = SpeX_Data/hd051283_SXD_spex.fits
 SpeX_LXD = SpeX_Data/hd051283_LXD_spex.fits
-sptype = B2/3III ; sptype ref = Houk & Smith-Moore 1988 (1988MSS...C04....0H)
+sptype = B3II-III ; sptype ref = Morgan, Code & Whitford 1955 (1955ApJS....2...41M)
 dered_RV = 3.1
 dered_AV = 0.16
 dered_FM = -0.24  0.74  3.40  0.52  4.59  1.00
@@ -31,3 +31,4 @@ WISE4 = 5.176 +/- 0.032
 corfac_spex_SXD = 1.019
 LXD_man = True
 corfac_spex_LXD = 0.84
+spex_mask = [(1.347,1.36),(1.799,1.949),(2.514,2.98)]

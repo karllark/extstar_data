@@ -1,11 +1,11 @@
 # data file for observations of HD 14422
-V = 9.03 +/- 0.006 ; UBV ref = 1955ApJ...122..429J
+V = 9.03 +/- 0.006 ; UBV ref = Johnson & Morgan 1955 (1955ApJ...122..429J, star 2138)
 (B-V) = 0.50 +/- 0.005
 (U-B) = -0.65 +/- 0.010
 J = 8.359 +/- 0.026 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 8.211 +/- 0.049
 K = 8.081 +/- 0.027
-L = 7.82 +/- 0.13   ; L ref = 1974ApJ...190...73S
+L = 7.82 +/- 0.13 ; L ref = 1974ApJ...190...73S
 IUE = IUE_Data/hd014422_iue.fits
 SpeX_SXD = SpeX_Data/hd014422_SXD_spex.fits
 SpeX_LXD = SpeX_Data/hd014422_LXD_spex.fits
@@ -29,4 +29,5 @@ uvsptype = B0.5IV ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 # corfac_irs_zerowave = 7.535
 corfac_spex_SXD = 0.281
 LXD_man = True
-corfac_spex_LXD = .355
+corfac_spex_LXD = 0.36
+spex_mask = [(1.8,1.82),(2.86,2.926)]

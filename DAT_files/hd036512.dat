@@ -1,5 +1,5 @@
 # data file for observations of HD 36512 (IUE standard)
-V = 4.62 +/- 0.02 ; UBVRI ref = 1966CoLPL...4...99J
+V = 4.62 +/- 0.02 ; UBVRI ref = Johnson+1966 (1966CoLPL...4...99J, source 1855)
 (B-V) = -0.26 +/- 0.02
 (U-B) = -1.07 +/- 0.02
 R = 4.74 +/- 0.02
@@ -33,3 +33,4 @@ corfac_irs = 0.925
 # corfac_irs_zerowave = 7.465
 corfac_spex_SXD = 1.050
 corfac_spex_LXD = None
+spex_mask = [(1.347,1.421),(1.799,1.95)]

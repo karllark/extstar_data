@@ -1,16 +1,18 @@
 # data file for observations of HD 37023
-V = 6.690 +/- 0.010
-B = 6.770 +/- 0.010
-U = 5.960 +/- 0.020
-J = 6.060 +/- 0.040
-# 2MASS J seems to be wrong: J = 7.146
+V = 6.69 +/- 0.01 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 6.77 +/- 0.01
+U = 5.96 +/- 0.02
+J = 6.01 +/- 0.01 ; J ref = 2002ApJ...573..366M
+# no detection in 2MASS J
+# 2MASS HK suffer from diffraction spike confusion
 H = 5.891 +/- 0.053 ; HK ref = IRSA 2MASS All-Sky Point Source Catalog
 K = 5.751 +/- 0.027
 IUE = IUE_Data/hd037023_iue.fits
 SpeX_SXD = SpeX_Data/hd037023_SXD_spex.fits
 SpeX_LXD = SpeX_Data/hd037023_LXD_spex.fits
-sptype = B1.5Vp ; sptype ref = Levenhagen & Leister 2006 (2006MNRAS.371..252L)
+sptype = B0.5Vp ; sptype ref = Borgman 1960 (1960BAN....15..255B)
 uvsptype = B0.5V ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
-corfac_spex_SXD = 0.954
+corfac_spex_SXD = 0.969
 LXD_man = True
-corfac_spex_LXD = 1.2
+corfac_spex_LXD = 1.215
+spex_mask = [(0.805,0.8055),(1.801,1.959),(2.512,2.881),(4.01,4.02)]

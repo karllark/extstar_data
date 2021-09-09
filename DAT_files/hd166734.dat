@@ -1,5 +1,5 @@
 # data file for observations of HD 166734
-V = 8.420 +/- 0.01 ; UBV ref = 1956ApJS....2..389
+V = 8.42 +/- 0.01 ; UBV ref = Hiltner 1956 (1956ApJS....2..389H)
 (B-V) = 1.09 +/- 0.01
 (U-B) = -0.12 +/- 0.01
 J = 5.881 +/- 0.020 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -24,5 +24,7 @@ WISE4 = 4.174 +/- 0.032
 # corfac_irs = 0.949
 # corfac_irs_slope = 0.004
 # corfac_irs_zerowave = 7.480
-corfac_spex_SXD = 1.194
-corfac_spex_LXD = 2.279
+corfac_spex_SXD = 1.195
+LXD_man = True
+corfac_spex_LXD = 2.15
+spex_mask = [(0.809,0.81),(1.346,1.479),(1.775,1.993),(2.514,2.883)]

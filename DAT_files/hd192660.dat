@@ -1,11 +1,9 @@
 # data file for observations of HD 192660
-V = 7.38  +/- 0.030  ; UBVRI ref = 1983ApJS...52....7F
+V = 7.38 +/- 0.03 ; UBVRI ref = Fernie 1983 (1983ApJS...52....7F)
 (U-V) = 0.45 +/- 0.03
 (B-V) = 0.67 +/- 0.03
 (V-R) = 0.58 +/- 0.03
 (V-I) = 1.03 +/- 0.03
-B = 8.170 +/- 0.010
-U = 7.810 +/- 0.010
 J = 6.151 +/- 0.018 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 6.004 +/- 0.017
 K = 5.909 +/- 0.016
@@ -18,13 +16,15 @@ sptype = B0Ia ; sptype ref = Morgan, Code & Whitford 1955 (1955ApJS....2...41M)
 uvsptype = B0Ia ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 corfac_irs_maxwave = 32.0
 MIPS24 = 4.77E+01 +/- 1.07E+00 mJy
-IRAC1 = 1.38E+03 +/- 2.78E+01 mJy
-IRAC2 = 9.13E+02 +/- 1.86E+01 mJy
+# IRAC 1 and 2 seem off
+# IRAC1 = 1.38E+03 +/- 2.78E+01 mJy
+# IRAC2 = 9.13E+02 +/- 1.86E+01 mJy
 IRAC3 = 6.58E+02 +/- 1.51E+01 mJy
 IRAC4 = 3.44E+02 +/- 7.26E+00 mJy
 IRS15 = 1.01E+02 +/- 2.04E+00 mJy
 WISE1 = 5.813 +/- 0.136 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 5.647 +/- 0.051
+# WISE 2 seems off
+# WISE2 = 5.647 +/- 0.051
 WISE3 = 5.675 +/- 0.016
 WISE4 = 5.469 +/- 0.064 
 # corfac_irs = 0.982
@@ -33,3 +33,4 @@ WISE4 = 5.469 +/- 0.064
 corfac_spex_SXD = 1.415
 LXD_man = True
 corfac_spex_LXD = 1.1
+spex_mask = [(2.87,2.905),(4.012,4.02)]

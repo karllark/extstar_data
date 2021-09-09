@@ -1,9 +1,10 @@
 # data file for observations of HD 47839 (IUE standard)
-V = 4.66 +/- 0.02 ; UBVRI ref = 1966CoLPL...4...99J
+V = 4.66 +/- 0.02 ; UBVRI ref = Johnson+1966 (1966CoLPL...4...99J, source 2456)
 U = 3.35 +/- 0.02
 B = 4.42 +/- 0.02
 R = 4.77 +/- 0.02
 I = 4.99 +/- 0.02
+# 2MASS J suffers from diffraction spike confusion
 J = 5.202 +/- 0.023 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 5.322 +/- 0.021
 K = 5.340 +/- 0.021
@@ -28,3 +29,4 @@ WISE4 = 5.336 +/- 0.212
 # corfac_irs = 0.990
 corfac_spex_SXD = 0.994
 corfac_spex_LXD = None
+spex_mask = [(1.343,1.356),(1.94,1.95),(2.417,2.43)]

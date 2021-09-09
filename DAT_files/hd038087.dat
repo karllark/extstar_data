@@ -1,7 +1,7 @@
 # data file for observations of HD 38087
-V = 8.300 +/- 0.010
-B = 8.420 +/- 0.010
-U = 7.970 +/- 0.010
+V = 8.30 +/- 0.01 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 8.42 +/- 0.01
+U = 7.97 +/- 0.01
 # IRSA (2MASS, IRAC and WISE) catalogs all refer to object IC435 when searching for this star. IC435 is the nebula surrounding this star.
 J = 7.588 +/- 0.024 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 7.386 +/- 0.042
@@ -23,3 +23,4 @@ WISE3 = 7.145 +/- 0.034
 corfac_spex_SXD = 0.848
 LXD_man = True
 corfac_spex_LXD = 0.75
+spex_mask = [(0.808,0.809),(1.343,1.42),(1.781,1.954),(2.517,2.891),(4.01,4.02)]

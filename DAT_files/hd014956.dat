@@ -1,5 +1,5 @@
 # data file for observations of HD 14956
-V = 7.19  +/- 0.020  ; UBVRI ref = 1967BOTT....4..149M
+V = 7.19 +/- 0.020 ; UBVRI ref = Mendoza 1967 (1967BOTT....4..149M)
 (B-V) = 0.72 +/- 0.020
 (U-B) = -0.29 +/- 0.020
 (V-R) = 0.65 +/- 0.02
@@ -29,6 +29,5 @@ WISE4 = 4.868 +/- 0.031
 # corfac_irs_zerowave = 7.474
 corfac_spex_SXD = 0.898
 LXD_man = True
-corfac_spex_LXD = .88
-spex_mask = [(4.79,5.08)]
-
+corfac_spex_LXD = 0.88
+spex_mask = [(1.347,1.36),(1.798,1.81),(2.508,2.909),(4.814,4.82)]

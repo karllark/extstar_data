@@ -1,5 +1,5 @@
 # data file for observations of HD 34759 (IUE standard)
-V = 5.22 +/- 0.019 ; UBVRI ref = 1971AJ.....76.1058C
+V = 5.22 +/- 0.019 ; UBV ref = Crawford, Barnes & Golson 1971 (1971AJ.....76.1058C)
 (B-V) = -0.14 +/- 0.010
 (U-B) = -0.57 +/- 0.015
 J = 5.437 +/- 0.019 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -19,3 +19,4 @@ dered_FM = -0.24  0.74  3.56  0.52  4.59  1.00
 corfac_spex_SXD = 0.937
 LXD_man = True
 corfac_spex_LXD = 1.0
+spex_mask = [(1.347,1.452),(1.78,1.961),(2.52,2.88),(5.24,5.34)]

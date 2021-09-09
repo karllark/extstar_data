@@ -1,7 +1,7 @@
 # data file for observations of HD 52721
-V = 6.580 +/- 0.050
-B = 6.640 +/- 0.060
-U = 5.900 +/- 0.060
+V = 6.58 +/- 0.05 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 6.64 +/- 0.06
+U = 5.90 +/- 0.06
 J = 6.243 +/- 0.018 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 6.156 +/- 0.029
 K = 6.038 +/- 0.021
@@ -10,10 +10,12 @@ SpeX_SXD = SpeX_Data/hd052721_SXD_spex.fits
 #SpeX_LXD = SpeX_Data/hd052721_LXD_spex.fits
 sptype = B2Vne ; sptype ref = Guetter 1968 (1968PASP...80..197G)
 uvsptype = B1V ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
-WISE1 = 6.040 +/- 0.074 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 5.631 +/- 0.042
+# WISE 1 and 2 seem off
+# WISE1 = 6.040 +/- 0.074 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE2 = 5.631 +/- 0.042
 WISE3 = 5.071 +/- 0.025
 # Something seems to be wrong with the WISE4 value
 # WISE4 = 2.483 +/- 0.034
 corfac_spex_SXD = 0.949
 corfac_spex_LXD = None
+spex_mask = [(1.343,1.421),(1.799,1.82)]

@@ -1,5 +1,5 @@
 # data file for observations of HD 32630 (IUE standard)
-V = 3.18 +/- 0.02 ; UBVRI ref = 1966CoLPL...4...99J
+V = 3.18 +/- 0.02 ; UBVRI ref = Johnson+1966 (1966CoLPL...4...99J, source 1641)
 (B-V) = -0.18 +/- 0.02 
 (U-B) = -0.67 +/- 0.02 
 R = 3.23 +/- 0.02
@@ -21,3 +21,4 @@ dered_AV = 0.06
 dered_FM = -0.24  0.74  3.56  0.52  4.59  1.00
 corfac_spex_SXD = 1.085
 corfac_spex_LXD = None
+spex_mask = [(0.806,0.807),(1.343,1.447),(1.802,1.951)]

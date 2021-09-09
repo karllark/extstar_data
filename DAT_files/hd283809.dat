@@ -1,5 +1,5 @@
 # data file for observations of HD 283809
-V = 10.72 +/- 0.017  ; UBVRI ref = 1980SvAL....6..397S
+V = 10.72 +/- 0.017 ; UBVRI ref = Slutskij, Stalbovskij & Shevchenko 1980 (1980SvAL....6..397S)
 (B-V) = 1.42 +/- 0.030
 (U-B) = 0.49 +/- 0.019
 (V-R) = 1.44 +/- 0.024
@@ -28,3 +28,4 @@ WISE4 = 5.880 +/- 0.052
 corfac_spex_SXD = 1.304
 LXD_man = True
 corfac_spex_LXD = 1.09
+spex_mask = [(1.94,1.95),(4.012,4.6),(5.3,5.4)]

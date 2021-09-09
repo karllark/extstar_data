@@ -1,7 +1,7 @@
 # data file for observations of HD 185418
-V = 7.450 +/- 0.010
-B = 7.670 +/- 0.010
-U = 7.000 +/- 0.010
+V = 7.45 +/- 0.01 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 7.67 +/- 0.01
+U = 7.00 +/- 0.01
 J = 7.033 +/- 0.023 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 7.091 +/- 0.040
 K = 7.086 +/- 0.023
@@ -18,4 +18,4 @@ uvsptype = B0.5III ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 corfac_spex_SXD = 1.002
 LXD_man = True
 corfac_spex_LXD = 0.79
-spex_mask = [(3.55,4.02)]
+spex_mask = [(1.347,1.36),(1.797,1.956),(3.568,5.2)]

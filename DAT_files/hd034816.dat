@@ -1,5 +1,5 @@
 # data file for observations of HD 34816 (IUE standard)
-V = 4.29 +/- 0.02  ; UBVRI ref = 1966CoLPL...4...99J
+V = 4.29 +/- 0.02 ; UBVRI ref = Johnson+1966 (1966CoLPL...4...99J, source 1756)
 (B-V) = -0.25 +/- 0.02
 (U-B) = -1.01 +/- 0.02
 R = 4.41 +/- 0.02
@@ -29,4 +29,5 @@ WISE4 = 5.200 +/- 0.033
 # corfac_irs_zerowave = 7.462
 corfac_spex_SXD = 0.902
 LXD_man = True
-corfac_spex_LXD = 0.893
+corfac_spex_LXD = 0.894
+spex_mask = [(0.807,0.809),(1.804,1.952),(2.514,2.903),(4.01,4.02)]

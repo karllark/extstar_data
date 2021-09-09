@@ -1,7 +1,7 @@
 # data file for observations of HD 14250
-V = 8.960 +/- 0.010
-B = 9.280 +/- 0.010
-U = 8.740 +/- 0.010
+V = 8.96 +/- 0.01 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 9.28 +/- 0.01
+U = 8.74 +/- 0.01
 J = 8.274 +/- 0.030 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 8.225 +/- 0.044
 K = 8.209 +/- 0.029
@@ -9,11 +9,13 @@ IUE = IUE_Data/hd014250_iue.fits
 FUSE = FUSE_Data/hd014250_fuse.fits
 SpeX_SXD = SpeX_Data/hd014250_SXD_spex.fits
 SpeX_LXD = SpeX_Data/hd014250_LXD_spex.fits
-IRAC1 = 1.0280E+02 +/- 1.6860E-02 mJy ; IRAC ref = IRSA SEIP Source List
+# IRAC 1 seems off
+# IRAC1 = 1.0280E+02 +/- 1.6860E-02 mJy ; IRAC ref = IRSA SEIP Source List
 IRAC2 = 8.3720E+01 +/- 1.6640E-02 mJy
 IRAC3 = 5.8230E+01 +/- 2.8300E-02 mJy
 IRAC4 = 3.0410E+01 +/- 1.4140E-02 mJy
-WISE1 = 7.970 +/- 0.167 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE 1 seems off
+# WISE1 = 7.970 +/- 0.167 ; WISE ref = IRSA AllWISE Source Catalog
 WISE2 = 8.258 +/- 0.021
 WISE3 = 8.299 +/- 0.024
 WISE4 = 7.883 +/- 0.153
@@ -22,4 +24,4 @@ uvsptype = B1.5III ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 corfac_spex_SXD = 0.152
 LXD_man = True
 corfac_spex_LXD = 0.93
-spex_mask = [(4.6,4.7)]
+spex_mask = [(1.347,1.36),(1.8,1.954),(2.514,2.885),(4.6,4.7)]

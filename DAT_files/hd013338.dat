@@ -1,7 +1,7 @@
 # data file for observations of HD 13338
-V = 9.030 +/- 0.010
-B = 9.270 +/- 0.010
-U = 8.720 +/- 0.010
+V = 9.03 +/- 0.01 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 9.27 +/- 0.01
+U = 8.72 +/- 0.01
 J = 8.546 +/- 0.030 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 8.501 +/- 0.030
 K = 8.538 +/- 0.021
@@ -16,5 +16,5 @@ WISE3 = 8.576 +/- 0.024
 WISE4 = 8.981 +/- 0.452
 corfac_spex_SXD = 0.845
 LXD_man = True
-corfac_spex_LXD = 3.25
-spex_mask = [(3.8,4.02)]
+corfac_spex_LXD = 3.2
+spex_mask = [(1.343,1.453),(1.796,1.949),(2.494,2.51),(3.8,4.02)]

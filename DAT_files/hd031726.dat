@@ -1,5 +1,5 @@
 # data file for observations of HD 31726 (IUE standard)
-V = 6.147 +/- 0.001  ; UBV ref = 1983ApJS...52....7F
+V = 6.147 +/- 0.001 ; UBV ref = Menzies, Marang & Westerhuys 1990 (1990SAAOC..14...33M)
 (B-V) = -0.206 +/- 0.002
 (U-B) = -0.873 +/- 0.004
 J = 6.642 +/- 0.020 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -27,6 +27,7 @@ WISE4 = 6.904 +/- 0.083
 # corfac_irs = 0.916
 # corfac_irs_slope = 0.001
 # corfac_irs_zerowave = 7.465
-corfac_spex_SXD = 0.942
+corfac_spex_SXD = 0.943
 LXD_man = True
 corfac_spex_LXD = 0.95
+spex_mask = [(0.804,0.8054),(1.347,1.452),(1.794,1.951),(2.515,2.878)]

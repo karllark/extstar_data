@@ -1,6 +1,6 @@
 # data file for observations of HD 164794 (IUE standard)
-V = 5.97 +/- 0.02 ; UBVRI ref = 1966CoLPL...4...99J
-(B-V) =  0.00 +/- 0.02 
+V = 5.97 +/- 0.02 ; UBVRI ref = Johnson+1966 (1966CoLPL...4...99J, source 6736)
+(B-V) = 0.00 +/- 0.02 
 (U-B) = -0.89 +/- 0.02
 R = 5.72 +/- 0.02
 I = 5.70 +/- 0.02
@@ -21,6 +21,7 @@ IRAC4 = 5.757 +/- 0.027
 WISE1 = 5.879 +/- 0.062 ; WISE ref = IRSA AllWISE Source Catalog
 WISE2 = 5.647 +/- 0.024
 # IRSA catalog flags W3 and W4 as contaminated by a diffraction spike from a nearby bright star.
-corfac_spex_SXD = 0.883
+corfac_spex_SXD = 0.884
 LXD_man = True
 corfac_spex_LXD = 0.91
+spex_mask = [(1.347,1.419),(2.513,2.53)]

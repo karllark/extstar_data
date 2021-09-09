@@ -1,5 +1,5 @@
 # data file for observations of hd204172
-V = 5.93 +/- 0.020    # UBVRI ref = 1977AJ.....82..431L
+V = 5.93 +/- 0.020 ; UBV ref = Lutz & Lutz 1977 (1977AJ.....82..431L, HR 8209A)
 (B-V) = -0.08 +/- 0.014
 (U-B) = -0.93 +/- 0.018
 J = 6.085 +/- 0.021 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -28,4 +28,5 @@ corfac_irs_slope = -0.001
 corfac_irs_zerowave = 7.478
 corfac_spex_SXD = 0.978
 LXD_man = True
-corfac_spex_LXD = 0.92
+corfac_spex_LXD = 0.925
+spex_mask = [(0.804,0.8047),(2.87,2.907),(5.24,5.34)]

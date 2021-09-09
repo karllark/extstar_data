@@ -1,7 +1,7 @@
 # data file for observations of HD 78316
-U = 4.70 +/- 0.03 ; UBV ref = 2002yCat.2237....0D (no uncertainties, assume 0.03)
-B = 5.13 +/- 0.03
-V = 5.24 +/- 0.03
+U = 4.69 +/- 0.03 ; UBV ref = Abt & Golson 1962 (1962ApJ...136...35A)
+B = 5.13 +/- 0.019
+V = 5.24 +/- 0.017
 J = 5.418 +/- 0.029 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 5.444 +/- 0.038
 K = 5.463 +/- 0.023
@@ -13,3 +13,4 @@ WISE3 = 5.586 +/- 0.015
 WISE4 = 5.548 +/- 0.040
 corfac_spex_SXD = 0.976
 corfac_spex_LXD = None
+spex_mask = [(0.809,0.8103),(1.343,1.421),(1.799,1.949)]

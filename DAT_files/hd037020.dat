@@ -1,9 +1,10 @@
 # data file for observations of HD 37020
-V = 6.720 +/- 0.010
-B = 6.720 +/- 0.010
-U = 5.840 +/- 0.010
-J = 6.140 +/- 0.040
-# 2MASS J seems to be wrong: J = 7.120
+V = 6.72 +/- 0.01 ; UBVJ ref = Valencic+2004 (2004ApJ...616..912V)
+B = 6.72 +/- 0.01
+U = 5.84 +/- 0.01
+J = 6.14 +/- 0.04
+# no detection in 2MASS J
+# 2MASS HK suffer from diffraction spike confusion
 H = 5.802 +/- 0.024 ; HK ref = IRSA 2MASS All-Sky Point Source Catalog
 K = 5.668 +/- 0.021
 IUE = IUE_Data/hd037020_iue.fits
@@ -14,3 +15,4 @@ uvsptype = B0.5V ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 corfac_spex_SXD = 1.704
 LXD_man = True
 corfac_spex_LXD = 1.69
+spex_mask = [(0.803,0.8042),(1.796,1.952),(2.513,2.53),(4.005,4.02)]

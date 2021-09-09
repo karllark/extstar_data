@@ -1,19 +1,21 @@
 # data file for observations of HD 156247
-V = 5.910 +/- 0.040
-B = 5.960 +/- 0.040
-U = 5.500 +/- 0.040
+V = 5.91 +/- 0.04 ; UBV ref = Valencic+2004 (2004ApJ...616..912V)
+B = 5.96 +/- 0.04
+U = 5.50 +/- 0.04
 J = 5.656 +/- 0.020 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 5.720 +/- 0.044
 K = 5.739 +/- 0.027
 IUE = IUE_Data/hd156247_iue.fits
 SpeX_SXD = SpeX_Data/hd156247_SXD_spex.fits
 SpeX_LXD = SpeX_Data/hd156247_LXD_spex.fits
-WISE1 = 5.923 +/- 0.108 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 5.793 +/- 0.044
+# WISE 1 and 2 seem off
+# WISE1 = 5.923 +/- 0.108 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE2 = 5.793 +/- 0.044
 WISE3 = 5.935 +/- 0.015
 WISE4 = 5.700 +/- 0.041
 sptype = B3V ; sptype ref = Houk & Swift 1999 (1999MSS...C05....0H)
 uvsptype = B4IV ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 corfac_spex_SXD = 1.377
 LXD_man = True
-corfac_spex_LXD = 0.054
+corfac_spex_LXD = 0.0525
+spex_mask = [(0.804,0.805),(1.347,1.36),(1.798,1.953),(2.514,2.972)]

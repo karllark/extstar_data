@@ -1,5 +1,5 @@
 # data file for observations of HD 229238
-V = 8.88 +/- 0.01  ; UBV ref = 1956ApJS....2..389
+V = 8.88 +/- 0.01 ; UBV ref = Hiltner 1956 (1956ApJS....2..389H)
 (B-V) = 0.90 +/- 0.01
 (U-B) = -0.06 +/- 0.01
 J = 7.015 +/- 0.023 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
@@ -28,3 +28,4 @@ corfac_irs_zerowave = 7.444
 corfac_spex_SXD = 1.246
 LXD_man = True
 corfac_spex_LXD = 0.96
+spex_mask = [(2.87,2.966),(4.012,4.02)]
