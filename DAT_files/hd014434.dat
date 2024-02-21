@@ -5,6 +5,10 @@ U = 7.870 +/- 0.010
 J = 8.130 +/- 0.030
 H = 8.130 +/- 0.040
 K = 8.120 +/- 0.030
+IRAC1 = 1.561E+02 +/- 2.076E-02 mJy
+IRAC2 = 9.605E+01 +/- 1.781E-02 mJy
+IRAC3 = 6.754E+01 +/- 3.043E-02 mJy
+IRAC4 = 3.685E+01 +/- 1.505E-02 mJy
 IUE = IUE_Data/hd014434_iue.fits
 FUSE = FUSE_Data/hd014434_fuse.fits
 sptype = O6.5V ; (uv)sptype ref = Valencic+2004 (2004ApJ...616..912V)

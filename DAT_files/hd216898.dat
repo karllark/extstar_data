@@ -5,6 +5,7 @@ U = 8.050 +/- 0.010
 J = 6.880 +/- 0.030
 H = 6.760 +/- 0.020
 K = 6.730 +/- 0.020
+IRAC4 = 1.255E+02 +/- 4.453E-02 mJy
 IUE = IUE_Data/hd216898_iue.fits
 FUSE = FUSE_Data/hd216898_fuse.fits
 sptype = O8.5V
