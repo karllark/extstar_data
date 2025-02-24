@@ -1,0 +1,5 @@
+MIRI_Data filter=lfs diff=lfs merge=lfs -text
+NIRCam_Data filter=lfs diff=lfs merge=lfs -text
+STIS_Data filter=lfs diff=lfs merge=lfs -text
+FUSE_Data filter=lfs diff=lfs merge=lfs -text
+IUE_Data filter=lfs diff=lfs merge=lfs -text
