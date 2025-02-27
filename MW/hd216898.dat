@@ -10,3 +10,5 @@ IUE = IUE_Data/hd216898_iue.fits
 FUSE = FUSE_Data/hd216898_fuse.fits
 sptype = O8.5V
 uvsptype = O9V
+MIRI_IFU = MIRI_Data/hd216898_miri_ifu.fits
+NIRCam_SS = NIRCam_Data/hd216898_nircam_ss.fits

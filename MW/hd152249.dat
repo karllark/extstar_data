@@ -10,3 +10,5 @@ FUSE = FUSE_Data/hd152249_fuse.fits
 sptype = O9Ib
 uvsptype = O9.5Ia
 IRAC4 = 5.673 +/- 0.026
+MIRI_IFU = MIRI_Data/hd152249_miri_ifu.fits
+NIRCam_SS = NIRCam_Data/hd152249_nircam_ss.fits

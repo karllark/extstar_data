@@ -9,3 +9,5 @@ IUE = IUE_Data/hd207198_iue.fits
 FUSE = FUSE_Data/hd207198_fuse.fits
 sptype = O9II
 uvsptype = B0Ib
+MIRI_IFU = MIRI_Data/hd207198_miri_ifu.fits
+NIRCam_SS = NIRCam_Data/hd207198_nircam_ss.fits

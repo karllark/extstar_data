@@ -6,7 +6,7 @@ U = 7.97 +/- 0.01
 J = 7.588 +/- 0.024 ; JHK ref = IRSA 2MASS All-Sky Point Source Catalog
 H = 7.386 +/- 0.042
 K = 7.252 +/- 0.023
-STIS_Opt = STIS_Data/hd38087_stis_Opt.fits
+# STIS_Opt = STIS_Data/hd38087_stis_Opt.fits
 IUE = IUE_Data/hd038087_iue.fits
 FUSE = FUSE_Data/hd038087_fuse.fits
 SpeX_SXD = SpeX_Data/hd038087_SXD_spex.fits
@@ -27,3 +27,5 @@ corfac_spex_SXD = 0.848
 LXD_man = True
 corfac_spex_LXD = 0.75
 spex_mask = [(0.808,0.809),(1.343,1.42),(1.781,1.954),(2.517,2.891),(4.01,4.02)]
+MIRI_IFU = MIRI_Data/hd38087_miri_ifu.fits
+NIRCam_SS = NIRCam_Data/hd38087_nircam_ss.fits
