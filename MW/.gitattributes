@@ -4,3 +4,6 @@ STIS_Data filter=lfs diff=lfs merge=lfs -text
 FUSE_Data filter=lfs diff=lfs merge=lfs -text
 IUE_Data filter=lfs diff=lfs merge=lfs -text
 MIRI_Data/hd73882_miri_ifu.fits filter=lfs diff=lfs merge=lfs -text
+FUSE_Data/hd073882_fuse.fits filter=lfs diff=lfs merge=lfs -text
+IUE_Data/hd073882_iue.fits filter=lfs diff=lfs merge=lfs -text
+NIRCam_Data/hd73882_nircam_ss.fits filter=lfs diff=lfs merge=lfs -text
