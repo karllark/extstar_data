@@ -5,6 +5,10 @@ U = 8.050 +/- 0.010
 J = 6.880 +/- 0.030
 H = 6.760 +/- 0.020
 K = 6.730 +/- 0.020
+WISE1 = 6.606 +/- 0.068 ; WISE ref = IRSA AllWISE Source Catalog
+WISE2 = 6.677 +/- 0.022
+WISE3 = 6.846 +/- 0.025
+#WISE4 = 8.945 +/- null
 IRAC4 = 1.255E+02 +/- 4.453E-02 mJy
 IUE = IUE_Data/hd216898_iue.fits
 FUSE = FUSE_Data/hd216898_fuse.fits

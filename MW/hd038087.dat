@@ -9,8 +9,8 @@ K = 7.252 +/- 0.023
 # STIS_Opt = STIS_Data/hd38087_stis_Opt.fits
 IUE = IUE_Data/hd038087_iue.fits
 FUSE = FUSE_Data/hd038087_fuse.fits
-SpeX_SXD = SpeX_Data/hd038087_SXD_spex.fits
-SpeX_LXD = SpeX_Data/hd038087_LXD_spex.fits
+SpeX_SXD = SpeX_Data/hd038087_sxd_spex.fits
+SpeX_LXD = SpeX_Data/hd038087_lxd_spex.fits
 sptype = B5V ; ref = 2019ApJ...886..108F
 uvsptype = B4V ; uvsptype ref = Valencic+2004 (2004ApJ...616..912V)
 IRAC3 = 1.4440E+02 +/- 7.0390E-02 mJy ; IRAC ref = IRSA SEIP Source List
@@ -18,9 +18,9 @@ IRAC4 = 8.1580E+01 +/- 3.3750E-02 mJy
 # WISE have extended source contamination
 # WISE 1, 2 and 4 contaminated by scattered light halo
 # WISE 1 has saturated pixels
-WISE1 = 7.152 +/- 0.037 ; WISE ref = IRSA AllWISE Source Catalog
-WISE2 = 7.203 +/- 0.019
-WISE3 = 7.145 +/- 0.034
+# WISE1 = 7.152 +/- 0.037 ; WISE ref = IRSA AllWISE Source Catalog
+# WISE2 = 7.203 +/- 0.019
+# WISE3 = 7.145 +/- 0.034
 # WISE 4 is severely contaminated by the surrounding nebula
 # WISE4 = 1.994 +/- 0.020
 corfac_spex_SXD = 0.848
