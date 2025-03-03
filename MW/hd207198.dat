@@ -5,6 +5,7 @@ U = 5.610 +/- 0.010
 J = 5.370 +/- 0.050
 H = 5.320 +/- 0.030
 K = 5.320 +/- 0.020
+MIRI_FND = 180.96 +/- 0.70 mJy
 IUE = IUE_Data/hd207198_iue.fits
 FUSE = FUSE_Data/hd207198_fuse.fits
 sptype = O9II
