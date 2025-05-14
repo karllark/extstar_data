@@ -9,7 +9,6 @@
   python ~/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV --outname j004511.85+413712.9 --normralph ralph_reductions/j004511_85
   python ~/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV --outname j004539.00+415439.0 --normralph ralph_reductions/j004539_00
   python ~/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV --outname j004539.70+415054.8 --normralph ralph_reductions/j004539_70
-  python ~/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV --outname j004543.46+414513.6 --normralph ralph_reductions/j004543_46
   python ~/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV --outname j004546.81+415431.7 --normralph ralph_reductions/j004546_81
   python ~/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV --outname j003733.35+400036.6 --normralph ralph_reductions/j003733_35
   python ~/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV --outname j003944.71+402056.2 --normralph ralph_reductions/j003944_71
