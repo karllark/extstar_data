@@ -1,4 +1,4 @@
-# data file for observations of j013339.52+304540
+# data file for observations of j013341.93+304728
 #V = 17.50 +/- 0.02
 #(B-V) = 0.06 +/- 0.02
 WFC3_F275W = 17.42 +/- 0.02
@@ -7,4 +7,4 @@ ACS_F475W = 18.69 +/- 0.02
 ACS_F814W = 18.39 +/- 0.02
 WFC3_F110W = 18.38 +/- 0.02
 WFC3_F160W = 18.27 +/- 0.02
-STIS = STIS_Data/j012241.93+304728_stis_UV.fits
+STIS = STIS_Data/j013341.93+304728_stis_UV.fits
