@@ -1,10 +1,8 @@
 # data file for observations of j013410.59+304616
-#V = 17.50 +/- 0.02
-#(B-V) = 0.06 +/- 0.02
-WFC3_F275W = 17.42 +/- 0.02
-WFC3_F336W = 17.50 +/- 0.02
-ACS_F475W = 18.69 +/- 0.02
-ACS_F814W = 18.39 +/- 0.02
-WFC3_F110W = 18.38 +/- 0.02
-WFC3_F160W = 18.27 +/- 0.02
-STIS = STIS_Data/j013410.59+304616_stis_UV.fits
+V = 17.761 +/- 0.008
+(B-V) = 0.083 +/- 0.010
+(U-B) = -0.781 +/- 0.015
+(V-R) = -0.197 +/- 0.011
+(R-I) = -0.030 +/- 0.008
+# data is effectively noise
+#STIS = STIS_Data/j013410.59+304616_stis_UV.fits
