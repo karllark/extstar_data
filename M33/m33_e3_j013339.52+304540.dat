@@ -7,3 +7,6 @@ V = 17.503 +/- 0.004
 #WFC3_F275W = 15.741 +/- 0.001
 #ACS_F475W = 17.334 +/- 0.02
 STIS = STIS_Data/j013339.52+304540_stis_UV.fits
+ptype = B2I
+Teff = 18000.0
+logg = 2.6
