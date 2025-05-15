@@ -6,3 +6,6 @@ V = 17.761 +/- 0.008
 (R-I) = -0.030 +/- 0.008
 # data is effectively noise
 #STIS = STIS_Data/j013410.59+304616_stis_UV.fits
+sptype = OI
+Teff = 35000.0
+logg = 3.2

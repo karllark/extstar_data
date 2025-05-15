@@ -11,3 +11,6 @@ ACS_F814W = 18.404 +/- 0.001
 WFC3_F110W = 18.340	 +/- 0.001
 WFC3_F160W = 18.118 +/- 0.002
 STIS = STIS_Data/j013344.59+304436_stis_UV.fits
+sptype = OI
+Teff = 35000.0
+logg = 3.2
