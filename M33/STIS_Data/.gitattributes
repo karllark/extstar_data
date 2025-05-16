@@ -1,0 +1,8 @@
+j013344.59+304436_stis_UV.fits filter=lfs diff=lfs merge=lfs -text
+j013406.63+304147_stis_UV.fits filter=lfs diff=lfs merge=lfs -text
+j013410.59+304616_stis_UV.fits filter=lfs diff=lfs merge=lfs -text
+j013416.10+303344_stis_UV.fits filter=lfs diff=lfs merge=lfs -text
+j013250.80+303507_stis_UV.fits filter=lfs diff=lfs merge=lfs -text
+j013334.26+303327_stis_UV.fits filter=lfs diff=lfs merge=lfs -text
+j013339.52+304540_stis_UV.fits filter=lfs diff=lfs merge=lfs -text
+j013341.93+304728_stis_UV.fits filter=lfs diff=lfs merge=lfs -text

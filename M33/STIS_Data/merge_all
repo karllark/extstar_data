@@ -1,0 +1,11 @@
+mstis="python /home/kgordon/Python/measure_extinction/measure_extinction/utils/merge_stis_spec.py --inpath ./ --outpath ./ --waveregion=UV"
+
+$mstis --outname j013250.80+303507 --normralph ralph_reductions/j013250_80
+$mstis --outname j013334.26+303327 --normralph ralph_reductions/j013334_26
+$mstis --outname j013339.52+304540 --normralph ralph_reductions/j013339_52
+$mstis --outname j013341.93+304728 --normralph ralph_reductions/j013341_93
+$mstis --outname j013344.59+304436 --normralph ralph_reductions/j013344_59
+$mstis --outname j013406.63+304147 --normralph ralph_reductions/j013406_63
+$mstis --outname j013410.59+304616 --normralph ralph_reductions/j013410_59
+$mstis --outname j013416.10+303344 --normralph ralph_reductions/j013416_10
+
