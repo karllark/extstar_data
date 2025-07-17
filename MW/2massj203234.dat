@@ -11,6 +11,7 @@ WISE1 = 8.436 +/- 0.022
 WISE2 = 8.386 +/- 0.020
 WISE3 = 8.903 +/- 0.046
 #WISE4 = 8.765 +/- 0.000 ; Low SNR -12.6
+MIRI_FND = 2.11 +/- 0.44 mJy
 STIS_Opt = STIS_Data/2massj203234_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj203234_miri_ifu.fits
 NIRCam_SS = NIRCam_Data/2massj203234_nircam_ss.fits

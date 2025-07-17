@@ -4,6 +4,7 @@ V = 11.24 +/- 0.12
 J = 8.321 +/- 0.019   ; JHK ref = 2MASS
 H = 7.893 +/- 0.031
 K = 7.639 +/- 0.018
+MIRI_FND = 24.85 +/- 0.45 mJy
 STIS = STIS_Data/2massj181129_stis_UV.fits
 STIS_Opt = STIS_Data/2massj181129_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj181129_miri_ifu.fits

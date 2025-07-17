@@ -13,6 +13,7 @@ IRAC4 = 1.555E+02 +/- 2.414E-01 mJy
 WISE2 = 6.623 +/- 0.042
 WISE3 = 6.693 +/- 0.041
 #WISE4 = 6.947 +/- 0.488 ; Low SNR 2.2
+MIRI_FND = 58.16 +/- 0.54 mJy
 STIS = STIS_Data/2massj173628_stis_UV.fits
 STIS_Opt = STIS_Data/2massj173628_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj173628_miri_ifu.fits

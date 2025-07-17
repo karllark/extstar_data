@@ -7,6 +7,7 @@ WISE1 = 9.265 +/- 0.023 ; WISE ref = IRSA AllWISE Source Catalog
 WISE2 = 9.239 +/- 0.019
 WISE3 = 9.526 +/- 0.041
 #WISE4 = 9.273 +/- 0.5   ; no sig, negative SNR
+MIRI_F1000W = 6.904 +/- 0.013 mJy
 STIS_Opt = STIS_Data/2massj085747_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj085747_miri_ifu.fits
 NIRCam_SS = NIRCam_Data/2massj085747_nircam_ss.fits

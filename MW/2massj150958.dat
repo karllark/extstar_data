@@ -8,6 +8,7 @@ WISE1 = 6.477 +/- 0.068 ; WISE ref = IRSA AllWISE Source Catalog
 WISE2 = 6.367 +/- 0.026
 WISE3 = 6.400 +/- 0.018
 WISE4 = 6.205 +/- 0.049
+MIRI_FND = 69.10 +/- 0.53 mJy
 STIS_Opt = STIS_Data/2massj150958_stis_Opt.fits
 STIS = STIS_Data/2massj150958_stis_UV.fits
 MIRI_IFU = MIRI_Data/2massj150958_miri_ifu.fits
