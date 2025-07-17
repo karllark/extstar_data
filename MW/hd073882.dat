@@ -9,6 +9,7 @@ WISE1 = 5.905 +/- 0.146 ; WISE ref = IRSA AllWISE Source Catalog
 WISE2 = 5.831 +/- 0.051
 WISE3 = 5.956 +/- 0.014
 WISE4 = 5.679 +/- 0.038
+MIRI_FND = 130.98 +/- 0.63 mJy
 IUE = IUE_Data/hd073882_iue.fits
 FUSE = FUSE_Data/hd073882_fuse.fits
 sptype = O9III

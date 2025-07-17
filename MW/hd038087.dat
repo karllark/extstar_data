@@ -23,6 +23,7 @@ IRAC4 = 8.1580E+01 +/- 3.3750E-02 mJy
 # WISE3 = 7.145 +/- 0.034
 # WISE 4 is severely contaminated by the surrounding nebula
 # WISE4 = 1.994 +/- 0.020
+MIRI_FND = 35.53 +/- 0.49 mJy
 corfac_spex_SXD = 0.848
 LXD_man = True
 corfac_spex_LXD = 0.75
