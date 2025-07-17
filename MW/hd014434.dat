@@ -13,9 +13,10 @@ WISE1 = 8.088 +/- 0.022 ; WISE ref = IRSA AllWISE Source Catalog
 WISE2 = 8.114 +/- 0.019
 WISE3 = 8.051 +/- 0.022
 WISE4 = 7.567 +/- 0.141
-IUE = IUE_Data/hd014434_iue.fits
-FUSE = FUSE_Data/hd014434_fuse.fits
+MIRI_FND = 17.62 +/- 0.48 mJy
 sptype = O6.5V ; (uv)sptype ref = Valencic+2004 (2004ApJ...616..912V)
 uvsptype = O5V
+IUE = IUE_Data/hd014434_iue.fits
+FUSE = FUSE_Data/hd014434_fuse.fits
 MIRI_IFU = MIRI_Data/hd14434_miri_ifu.fits
 NIRCam_SS = NIRCam_Data/hd14434_nircam_ss.fits
