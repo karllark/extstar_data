@@ -1,4 +1,4 @@
-# data file for observations of 2MASS J08574757-4609145
+# data file for observations of 2MASS J08574757-4609145  (aka GSC 08152-02121)
 V = 13.14 +/- 0.05  ; 1977AJ.....82..474M (unc a guess)
 J = 10.019 +/- 0.022  ; JHK ref = 2MASS
 H = 9.612 +/- 0.021

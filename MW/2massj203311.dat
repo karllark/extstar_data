@@ -1,4 +1,4 @@
-# data file for observations of 2MASS J20331106 +4110321
+# data file for observations of 2MASS J20331106+4110321 (aka ALS 15181)
 B = 16.97 +/- 0.05  ; 2003AJ....125.2531R
 V = 14.78 +/- 0.05 
 J = 10.169 +/- 0.020   ; JHK ref = 2MASS
