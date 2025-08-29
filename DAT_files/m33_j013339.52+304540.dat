@@ -1,5 +1,0 @@
-# data file for observations of j013339.52+304540
-V = 17.50 +/- 0.02
-(B-V) = 0.06 +/- 0.02
-STIS = STIS_Data/j013339.52+304540_stis_UV.fits
-sptype = B0.5
