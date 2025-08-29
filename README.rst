@@ -8,6 +8,8 @@ These files are used by the `measure_extinction` code to provide
 creation of extinction curves using the standard pair method
 with observed and model comparison stars.
 
+FITS spectra files are stored via git lfs.
+
 
 In Development!
 ---------------
