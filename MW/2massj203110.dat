@@ -1,18 +1,23 @@
-# data file for observations of 2MASS J20311055 +4131535
+# data file for observations of 2MASS J20311055+4131535 (aka VI Cyg 1 and Shulte 1)
 B = 12.69 +/- 0.06  ; 2012yCat.1322....0Z
 V = 11.09 +/- 0.05 
 J = 7.968 +/- 0.020   ; JHK ref = 2MASS
 H = 7.556 +/- 0.017
 K = 7.365 +/- 0.016
-IRAC1 = 3.594E+02 +/- 5.004E-02 mJy ; Spitzer ref SEIP source catalog
-IRAC2 = 2.320E+02 +/- 4.486E-02 mJy
-IRAC3 = 1.571E+02 +/- 7.426E-02 mJy
-IRAC4 = 8.549E+01 +/- 3.669E-02 mJy
+IRAC1 = 7.152 +/- 0.044 ; 2021ApJ...916...33G
+IRAC2 = 7.139 +/- 0.045
+IRAC3 = 7.056 +/- 0.064
+IRAC4 = 6.989 +/- 0.050
+#IRAC1 = 3.594E+02 +/- 5.004E-02 mJy ; Spitzer ref SEIP source catalog
+#IRAC2 = 2.320E+02 +/- 4.486E-02 mJy
+#IRAC3 = 1.571E+02 +/- 7.426E-02 mJy
+#IRAC4 = 8.549E+01 +/- 3.669E-02 mJy
 # WISE ref = IRSA AllWISE Source Catalog
 WISE1 = 7.135 +/- 0.038
 WISE2 = 7.179 +/- 0.022
 WISE3 = 7.350 +/- 0.023
 #WISE4 = 7.227 +/- 0.000 ; Low SNR 0.9
+MIRI_FND = 27.80 +/- 0.48 mJy
 STIS = STIS_Data/2massj203110_stis_UV.fits
 STIS_Opt = STIS_Data/2massj203110_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj203110_miri_ifu.fits

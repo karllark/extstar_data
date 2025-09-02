@@ -1,4 +1,4 @@
-# data file for observations of 2MASS J17362876 -3253166
+# data file for observations of 2MASS J17362876-3253166 (aka TYC 7380-1046-1)
 B = 11.88 +/- 0.05  ; 2003AJ....125.2531R
 V = 10.7 +/- 0.05 
 J = 7.567 +/- 0.021   ; JHK ref = 2MASS
@@ -13,6 +13,7 @@ IRAC4 = 1.555E+02 +/- 2.414E-01 mJy
 WISE2 = 6.623 +/- 0.042
 WISE3 = 6.693 +/- 0.041
 #WISE4 = 6.947 +/- 0.488 ; Low SNR 2.2
+MIRI_FND = 58.16 +/- 0.54 mJy
 STIS = STIS_Data/2massj173628_stis_UV.fits
 STIS_Opt = STIS_Data/2massj173628_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj173628_miri_ifu.fits

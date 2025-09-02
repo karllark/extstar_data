@@ -1,4 +1,4 @@
-# data file for observations of 2MASS J20323486 +4056174
+# data file for observations of 2MASS J20323486+4056174 (aka [CPR2002] A38)
 J = 9.382 +/- 0.021   ; JHK ref = 2MASS
 H = 8.858 +/- 0.017
 K = 8.564 +/- 0.016
@@ -11,6 +11,7 @@ WISE1 = 8.436 +/- 0.022
 WISE2 = 8.386 +/- 0.020
 WISE3 = 8.903 +/- 0.046
 #WISE4 = 8.765 +/- 0.000 ; Low SNR -12.6
+MIRI_FND = 9.52 +/- 0.44 mJy
 STIS_Opt = STIS_Data/2massj203234_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj203234_miri_ifu.fits
 NIRCam_SS = NIRCam_Data/2massj203234_nircam_ss.fits

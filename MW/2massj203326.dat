@@ -1,4 +1,4 @@
-# data file for observations of 2MASS J20332674 +4110595
+# data file for observations of 2MASS J20332674+4110595 (aka GSC 03157-00327)
 B = 14.87 +/- 0.05  ; 2003AJ....125.2531R
 V = 13.00 +/- 0.05 
 J = 8.971 +/- 0.020   ; JHK ref = 2MASS
@@ -13,6 +13,7 @@ WISE1 = 7.974 +/- 0.024
 WISE2 = 7.930 +/- 0.020
 WISE3 = 7.828 +/- 0.024
 #WISE4 = 8.790 +/- 0.000 ; Low SNR -9.7
+MIRI_FND = 18.39 +/- 0.50 mJy
 STIS_Opt = STIS_Data/2massj203326_stis_Opt.fits
 MIRI_IFU = MIRI_Data/2massj203326_miri_ifu.fits
 NIRCam_SS = NIRCam_Data/2massj203326_nircam_ss.fits

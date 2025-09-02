@@ -6,9 +6,10 @@ J = 5.210 +/- 0.020
 H = 5.250 +/- 0.040
 K = 5.220 +/- 0.020
 IRAC3 = 1.114E+03 +/- 4.724E-02 mJy
-IUE = IUE_Data/hd206267_iue.fits
-FUSE = FUSE_Data/hd206267_fuse.fits
+MIRI_FND = 188.64 +/- 0.70 mJy
 sptype = O6V ; (uv)sptype ref = Valencic+2004 (2004ApJ...616..912V)
 uvsptype = O7V
+IUE = IUE_Data/hd206267_iue.fits
+FUSE = FUSE_Data/hd206267_fuse.fits
 MIRI_IFU = MIRI_Data/hd206267_miri_ifu.fits
 NIRCam_SS = NIRCam_Data/hd206267_nircam_ss.fits
