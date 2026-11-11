@@ -1,0 +1,10 @@
+
+for CSTAR in  sk-66_19  sk-66_169  sk-66_88  sk-66_106  sk-67_2  sk-66_35  sk-68_129  sk-68_41  sk-68_140 \
+              sk-68_41  sk-68_155  sk-67_168  sk-68_23  sk-67_36  sk-68_26  sk-66_35  sk-69_108  sk-67_78 \
+              sk-69_206  sk-67_5  sk-69_210  sk-66_118  sk-69_213  sk-70_120  sk-69_228  sk-65_15  sk-69_256 \
+              sk-68_41  sk-69_265  sk-68_40  sk-69_270  sk-67_228  sk-69_279  sk-65_63  sk-69_280  sk-67_100 \
+              sk-70_116  sk-67_256
+
+do
+    nice -n 19 python download_iue.py $CSTAR
+done
