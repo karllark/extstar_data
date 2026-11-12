@@ -1,0 +1,8 @@
+# data file for observations of Sk -70 120
+V = 11.590 +/- 0.020  ; UBVIJHK ref = Gordon03
+(B-V) = -0.060 +/- 0.020
+(U-B) = -0.880 +/- 0.040
+J = 11.831 +/- 0.033
+H = 11.803 +/- 0.028
+K = 11.835 +/- 0.036
+IUE = IUE_Data/sk-70_120_iue.fits

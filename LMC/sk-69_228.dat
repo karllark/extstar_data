@@ -1,0 +1,8 @@
+# data file for observations of Sk -69 228
+V = 12.120 +/- 0.020  ; UBVIJHK ref = Gordon03
+(B-V) = 0.050 +/- 0.020
+(U-B) = -0.760 +/- 0.040
+J = 12.029 +/- 0.034
+H = 11.998 +/- 0.034
+K = 11.937 +/- 0.037
+IUE = IUE_Data/sk-69_228_iue.fits
